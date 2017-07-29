@@ -1,0 +1,73 @@
+/* Global */
+.pic
+ {
+ 	max-width:100%;
+ }
+
+a
+ {   
+	-webkit-transition: all 150ms ease;	
+	-moz-transition: all 150ms ease;
+	-ms-transition: all 150ms ease;
+	-o-transition: all 150ms ease;
+	transition: all 150ms ease;
+ }
+    
+a:hover 
+{
+    	opacity: 0.6;
+	text-decoration: none;
+}
+
+body
+{   
+	border-top:0;
+}
+
+.thumbnails li> .fff .caption 
+{
+	background:#fff !important; 
+    	padding:10px;
+}
+
+ul.thumbnails 
+{     
+	margin-bottom: 0px;
+}
+
+/* Thumbnail Box */
+
+.caption h4 
+{
+    color: #444;
+}
+
+.caption p 
+{  
+	color: #999;
+}
+
+/* Carousel Control */
+
+.control-box 
+{
+    text-align: right;
+    width: 100%;
+}
+
+.carousel-control
+{
+	background: #666;
+	border: 0px;
+	border-radius: 0px;
+    	display: inline-block;
+    	font-size: 34px;
+	font-weight: 200;
+    	line-height: 18px;
+    	opacity: 0.5;
+    	padding: 4px 10px 0px;
+    	position: static;
+    	height: 30px;
+    	width: 15px;
+
+}
